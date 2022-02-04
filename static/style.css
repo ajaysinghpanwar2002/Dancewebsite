@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Supermercado+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Supermercado+One&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Supermercado+One&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  /* font-family: "Supermercado One", cursive; */
+}
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  margin-right: 45px;
+}
+#logo img {
+  height: 42px;
+  filter: invert(1);
+}
+#navbar {
+  background-color: rgb(134, 73, 73);
+  padding: 13px 14px;
+  font-family: "Supermercado One", cursive;
+}
+#navbar ul {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: row;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 13px 30px;
+  color: white;
+  font-size: 1.3rem;
+}
+#navbar li a:hover {
+  color: black;
+  font-weight: bold;
+}
+#introsection {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  flex-direction: column;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 25px;
+
+  height: 300px;
+  background-color: red;
+  background: center / cover no-repeat url(/static/intro2.jpg);
+}
+#introsection div.small {
+  font-size: 27px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#missionsection {
+  height: 300px;
+  margin: auto;
+  /* width: 67%; */
+  display: block;
+  background-color: rgb(209, 151, 151);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#missionsection h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 23px 22px;
+  height: 209px;
+  display: inline-block;
+}
+.card h3 {
+  text-align: center;
+  margin: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-content{
+    font-size: 15px;
+}
+.card-content p{
+    font-size: 19px;
+}
+.card-img img {
+  height: 160px;
+  width: 401px;
+}
+/* #sponsorsection {
+  height: 300px;
+  background-color: rgb(247, 178, 138);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#sponsorsection h2 {
+  text-align: center;
+  padding-top: 15px;
+} */
+#footer {
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+
+}

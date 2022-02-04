@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Supermercado+One&display=swap");
+
+h1 {
+  text-align: center;
+  margin: 12px;
+}
+.container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.container h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.myform {
+  display: flex;
+  flex-direction: column;
+  /* width: 50%; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.myinput {
+  width: 40%;
+  padding: 9px;
+  margin: 8px;
+  font-size: 16px;
+  border: 2px solid rgb(37, 18, 18);
+  border-radius: 12px;
+  outline: none;
+}
+.btn {
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+  outline: none;
+  margin: 26px;
+}

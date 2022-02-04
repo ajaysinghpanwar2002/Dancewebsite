@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title AJ's Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar 
+        ul
+            #logo 
+                img(src="/static/logo.png") 
+                | AJ's 
+
+            li #[a(href="") Home ]
+            li #[a(href="") about] 
+            li #[a(href="") services]  
+            li #[a(href="/contact") contact us]
+            li #[a(href="") class info]
+    block content
+    footer#footer 
+        |  copyright © 2022 AJdanceacademy.com | All rights reserved

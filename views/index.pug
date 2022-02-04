@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    title AJ's Dance Academy 
+    style
+      include  ../static/style.css
+  body
+    nav#navbar 
+        ul
+            #logo 
+                img(src="/static/logo.png") 
+                | AJ's 
+
+            li #[a(href="") Home ]
+            li #[a(href="") about] 
+            li #[a(href="") services]  
+            li #[a(href="") contact us]
+            li #[a(href="") class info]
+
+    section#introsection
+        div Welcome to AJ's Dance Academy
+        div.small ANY BUDDY CAN DANCE       
+    section#missionsection
+        h2  Our mission  
+        div.card 
+            h3  Dance perfection
+            div.carf-box 
+                div.card-img 
+                    img(src="/static/1.jpg")
+
+                div.card-content
+                    p This is the best dance academy 
+        div.card 
+            h3  Dance the way you like 
+            div.carf-box 
+                div.card-img 
+                    img(src="/static/2.jpg")
+
+                div.card-content
+                    p This is the best dance academy  
+        div.card 
+            h3  Expert Guidance 
+            div.carf-box 
+                div.card-img 
+                    img(src="/static/3.jpg")
+
+                div.card-content
+                    p This is the best dance academy   
+    //- section#sponsorsection
+    //-     h2  Our Sponsors   
+    //-     #sponsors 
+    //-         img(src=" ")     
+
+    footer#footer 
+        |  copyright © 2022 AJdanceacademy.com | All rights reserved      
+    script
+      include ../static/index.js
